@@ -1,0 +1,33 @@
+<div class="input-field">
+<h1>
+ Add and List your Issue!
+</h1>
+<div class="container">
+    <div class="input-field padd col-md-6">
+        <label for="title">Title</label>
+        <input [(ngModel)]="issue.title"  id="title" type="text">        
+      </div>
+      <div class="input-field padd col-md-6">
+          <label for="body">Body</label>
+          <input [(ngModel)]="issue.body"  id="body" type="text">          
+        </div>
+</div>
+<div class="input-field ">
+<button (click)="CreateIssue()">Create Issue</button>
+<button (click)="listIssue()">List Issue</button>
+</div>
+<div class="listTable" *ngIf="ListIssue ">
+    <table >
+      <thead>
+          <th>Title</th>
+          <th>Body</th>
+      </thead>
+      <tbody>
+      <tr *ngFor="let i of ListIssue">
+        <td> {{i.title}}</td>
+        <td> {{i.body}}</td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+</div>
