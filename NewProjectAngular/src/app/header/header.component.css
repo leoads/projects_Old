@@ -1,0 +1,140 @@
+.height-100{
+	height: 100%;
+}
+
+.input-search{
+	height: 100%;
+	border: none;
+}
+
+.logo-container{
+	padding: 0% 2%;
+	border-left: solid 2px #e9ecef;
+}
+
+
+
+.logo-img{
+	width: 100%;
+}
+
+#btnGroupAddon{
+	border: none;
+	background-color: #ffffff;
+}
+
+.button-container{
+	padding-top: 1%;
+}
+
+.button-container-2{
+	display: inline-flex;
+	float: right;
+}
+
+.span-title{	
+	width: 100%;
+	text-align: right;
+}
+
+.button-container-2 > .input-group > .span-title{
+	display: inline-flex;
+}
+
+.container-1{
+	text-align: right;
+}
+
+.container-1 span{
+	margin-right: 2%;
+}
+
+.container-2{
+	padding-right: 0%;
+}
+
+#badge-notfication{
+	background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+#button-badge-notfication{
+	background-color: #007bff;
+	border-radius: unset;
+}
+
+.user-icon{
+	padding: 5.5%;	
+}
+
+.background-color-user{
+	background-color: rgba(2, 16, 51);
+}
+
+.econo-group-header select{	
+	border: 1px solid #007bff;
+    padding: .8rem 1rem .8rem .5rem;
+    width: 50%;
+    color:#565656;
+    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    cursor: pointer;    
+}
+
+.econo-group-header{
+	display: inline;
+}
+
+.econo-group-header::after{
+	content: " \f103";
+    font-family: "FontAwesome";
+    color: #007bff;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    right: 7%;
+    font-size: 2.0em;
+    pointer-events: none;	
+}
+
+.econo-group-header select:focus{
+    border: 1px solid blue;
+}
+
+.econo-group-header select::-ms-expand{
+    display: none;
+}
+
+.user-drop-header{
+	width: 100%;
+}
+
+.user-drop-header select{	
+	border: none;
+	background-color: rgba(2, 16, 51);
+    padding: .8rem 1rem .8rem .5rem;
+    width: 100%;
+    color:#ffffff;
+    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    cursor: pointer;    
+}
+
+.user-drop-header::after{
+	content: " \f103";
+    font-family: "FontAwesome";
+    color: #007bff;
+    position: absolute;
+    top: 6%;
+    z-index: 1;
+    right: 5%;
+    font-size: 2.0em;
+    pointer-events: none;	
+}

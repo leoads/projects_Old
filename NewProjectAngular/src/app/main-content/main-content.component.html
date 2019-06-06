@@ -1,0 +1,109 @@
+ 
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Painel de Gestão</li>
+                </ol>
+              </nav>
+              <div class="col-md-12">
+                <div class="row">    
+                  <div class="col-md-6 main-top-container-1">
+                      <h2><img src="https://img.icons8.com/ios/50/000000/globe.png"></h2>                    
+                      <h2>Painel de Gestão</h2>
+                  </div>
+                  <div class="col-md-6 main-top-container-2">                  
+                        <div class="input-group">
+                            <div class="span-main">
+                            <span>Produto:</span>
+                            <div class="produto-drop-main">
+                                <select>
+                                  <option>Selecione</option>
+                                  <option *ngFor="let product of products" value="product">{{product}}</option>                                 
+                                </select>
+                                </div>
+                            </div>																	
+                            </div>
+                      </div>
+                  </div>
+                </div>                  
+          </div>            
+      </div> 
+      <div class="row">
+          <div class="col-md-7 box-1">
+            <div class="col-md-12 title-box">
+              <h4>Atalhos</h4>
+            </div>
+            <div class="col-md-12 box-1-main">
+                <div class="row">
+                    <div class="col-md-8">
+                      <div class="col-md-12 no-padding margin-top-10"><h6>Operacional</h6></div>                          
+                        <div class="col-md-12 no-padding">
+                          <div class="row margin-bottom-5">
+                            <div class="col-md-6">
+                              <button type="button" class="btn btn-outline-primary width-100">Envio</button>                              
+                            </div>
+                            <div class="col-md-6">
+                              <button type="button" class="btn btn-outline-primary width-100">Assinatura</button> 
+                            </div>
+                          </div>
+                          <div class="row margin-bottom-5">
+                              <div class="col-md-6">
+                                <button type="button" class="btn btn-outline-primary width-100">Envio de Duplicatas</button>                              
+                              </div>
+                              <div class="col-md-6">
+                                <button type="button" class="btn btn-outline-primary width-100">Assinatura Digital</button> 
+                              </div>
+                            </div>
+                            <div class="row margin-bottom-5">
+                                <div class="col-md-6">
+                                  <button type="button" class="btn btn-outline-primary width-100">Nova Operação</button>                              
+                                </div>                                
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="col-md-4 box-geral">                          
+                        <div class="col-md-12 no-padding margin-top-20"><h6>Geral</h6></div>
+                        <div class="col-md-12 no-padding">
+                          <div class="row margin-bottom-10">
+                            <div class="col-md-12">
+                              <button type="button" class="btn btn-outline-primary width-100">Carteira</button>                              
+                            </div>                              
+                          </div>                            
+                            <div class="row margin-bottom-10">
+                                <div class="col-md-12">
+                                  <button type="button" class="btn btn-outline-primary width-100">Instruções</button>                              
+                                </div>                                
+                            </div>                              
+                        </div>
+                    </div>
+                  </div>
+            </div>              
+          </div>
+          <div class="col-md-5">
+              <div class="col-md-12 title-box">
+                  <h4>Alertas</h4>
+              </div>
+              <div class="col-md-12 box-2-main">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">23 Notas Canceladas</li>
+                      <li class="list-group-item">
+                      <span>13 Notas Canceladas</span>
+                              <select class="drop-select">
+                                  <option value="">Ações</option>
+                                  <option  *ngFor="let action of listActions" value="action">{{action}}</option>                                 
+                              </select>
+                      </li>				
+                      <li class="list-group-item">
+                      <span>7 Assinaturas Digital</span>
+                              <select class="drop-select">
+                                  <option value="">Ações</option>
+                                  <option  *ngFor="let action of listActions" value="action">{{action}}</option>                                 
+                              </select>
+                      </li>
+                    </ul>
+              </div>
+
+          </div>
+      </div>

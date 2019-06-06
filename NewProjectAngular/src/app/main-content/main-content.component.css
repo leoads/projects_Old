@@ -1,0 +1,98 @@
+.btn.btn-outline-primary.width-100{
+    color: #000000;
+    font-size: 80%;
+}
+
+.margin-bottom-5{
+    margin-bottom: 5%;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10%;
+}
+
+.box-geral{
+    border-left: 1px solid #e9ecef;
+}
+
+.box-1{
+    padding-bottom: 1%;
+}
+
+.box-1-main, .box-2-main{
+    border-top: 1px solid #e9ecef;
+    background-color: #ffffff;
+}
+
+.margin-top-10{
+    margin-top: 10%;
+}
+
+.margin-top-20{
+    margin-top: 20%;
+}
+
+.title-box{
+    background-color: #ffffff;
+    padding: 4% 3%;
+}
+
+.span-main{
+	padding: 3%;	
+	width: 100%;
+	text-align: right;
+}
+
+.span-main span{
+	display: inline-block;	
+	padding: 3%;
+}
+
+.drop-select{
+	float: right;
+	border: 1px solid #007bff;
+}
+
+.produto-drop-main{
+	display: inline;
+}
+
+.produto-drop-main select{	
+	border: 1px solid #007bff;
+    padding: .8rem 1rem .8rem .5rem;
+    width: 50%;
+	background-color: transparent;
+	color:#565656;
+	float: right;
+    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    cursor: pointer; 
+    
+}
+
+.produto-drop-main::after{
+	content: " \f103";
+    font-family: "FontAwesome";
+    color: #007bff;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    right: 6%;
+    font-size: 2.0em;
+    pointer-events: none;	
+}
+
+.main-top-container-1{
+	display: inline-flex;
+}
+
+.main-top-container-1 h2{
+	margin-right: 5%;
+}
+
+.col-md-5 > .title-box{
+	padding: 5.7% 4%;
+}

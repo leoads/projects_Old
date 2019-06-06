@@ -1,0 +1,9 @@
+
+    <ul class="nav flex-column">
+        <li *ngFor="let menu of listmenu" [ngSwitch]="menu" class="nav-item">
+          <i *ngSwitchCase="'Painel de Gestão'" class="material-icons" style="padding: 5% 0% 0% 2%;">language</i>
+          <i *ngSwitchCase="'Conta Digital'" class="material-icons" style="padding: 1% 1% 1% 2%;">@</i>
+          <i *ngSwitchCase="'Anti. de Recebíveis'" class="fas fa-sync" style="padding: 7% 0% 1% 4%"></i>
+          <a class="nav-link width-100" href="#"><span>{{menu}}</span></a>
+        </li>  		    
+      </ul>  

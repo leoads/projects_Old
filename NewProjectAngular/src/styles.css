@@ -1,0 +1,18 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.no-padding{
+    padding: 0% !important;
+}
+
+.width-100{
+    width: 100% !important;
+}
+
+.menu-container{
+	background-color: rgba(2, 16, 51);
+	padding: 0%;
+}
+
+.main{
+    background-color: #e9ecef;
+}

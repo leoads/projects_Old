@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-md-2">
+            <div class="input-group height-100">
+                    <input type="text" class="form-control input-search" placeholder="Pesquise Aqui" aria-label="Pesquise Aqui" aria-describedby="btnGroupAddon">
+                    <div class="input-group-prepend">
+                        <div class="btn input-group-text" id="btnGroupAddon"><i class='fas fa-search'></i></div>
+                    </div>          
+                </div>
+    </div>
+    <div class="col-md-10">
+            <div class="row">
+                    <div class="col-md-2 logo-container">
+                        <h1>
+                        <img class="logo-img" [src]="pathImage">
+                        </h1>
+                </div>
+                            <div class="col-md-10 button-container">
+                            <div class="row">
+                                    <div class="col-md-6 container-1">
+                                            <span>Grupo Econômico:</span>
+                                            <div class="econo-group-header">
+                                                    <select>
+                                                      <option value="">selecione</option>
+                                                      <option *ngFor="let group of economicGroup " value="group">{{group}}</option>                                                      
+                                                    </select>
+                                                  </div>
+                                    </div>
+                                    <div class="col-md-6 container-2">
+                                    <div class="button-container-2 width-100">
+                                            <div class="input-group background-color-user">
+                                                        <div class="span-title">
+                                                        <i class="far fa-user user-icon" style="color: #ffffff;"></i>
+                                                        <div class="user-drop-header">
+                                                                <select>
+                                                                  <option>User</option>
+                                                                  <option *ngFor="let user of users" value="user">{{user}}</option>                                                                  
+                                                                </select>
+                                                              </div>
+                                                        </div>																	
+                                                        </div>
+                                    <button type="button" class="btn btn-primary" id="button-badge-notfication">
+                                    <i class="far fa-bell"></i>
+                                    <span class="badge" id="badge-notfication" style="background-color: red; color: #ffffff;">9</span>												
+                                    </button>
+                                    </div>
+                                    </div>
+                            </div>	
+                    </div>
+        </div>           
+    </div>      
+</div>

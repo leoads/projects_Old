@@ -1,0 +1,21 @@
+
+ul > li > a{
+	color: #ffffff;
+}
+
+ul > li{
+	border-bottom: solid 1px #007bff;
+	display: inline-flex;
+}
+
+ul > li > i{
+	color: #ffffff;
+}
+
+.nav-item:hover {
+	background-color: #007bff;
+  }
+
+.nav-item.active {
+	background-color: #007bff;
+}
